@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.item a {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.item a {
+    text-decoration: none;
+    cursor: default;
+}
+
+.item a:hover {
+    background-color: #464950;
+    z-index: 100;
+    transition: all 0.3s;
+}
+
+.activeLink {
+    color: #808080;
+}
+
+.link {
+    cursor: pointer;
+}
+

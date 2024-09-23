@@ -1,0 +1,29 @@
+@font-face {
+    font-weight: 100;
+    font-family: Metaluna;
+    src: url("./Metaluna_Thin.otf");
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: Metaluna;
+    src: url("./Metaluna_Light.otf");
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: Metaluna;
+    src: url("./Metaluna_Medium.otf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Metaluna;
+    src: url("./Metaluna_Bold.otf");
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: Metaluna;
+    src: url("./Metaluna_Heavy.otf");
+}
